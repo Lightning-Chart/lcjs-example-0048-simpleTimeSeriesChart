@@ -23,9 +23,8 @@ Minimal example of displaying time series line chart with LightningChart JS.
 
 Key parts:
 
--   Timestamps data is supplied as UTC timestamps (other ways also possible but this is the recommended format)
--   Use linear-highPrecision time axis type to allow more precise zooming
--   Configure axisX tick strategy as DateTime
+- Timestamps data is supplied as UTC timestamps (other ways also possible but this is the recommended format)
+- Configure axisX tick strategy as DateTime
 
 
 ## API Links
@@ -55,6 +54,6 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2026. All rights reserved.
 
 
-[XY cartesian chart]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/ChartXY.html
-[Axis]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/Axis.html
+[XY cartesian chart]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/classes/ChartXY.html
+[Axis]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/classes/Axis.html
 

@@ -17,9 +17,6 @@ const lc = lightningChart({
         })
 const chart = lc
     .ChartXY({
-        defaultAxisX: {
-            type: 'linear-highPrecision',
-        },
         theme: (() => {
     const t = Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined
     return t && window.lcjsSmallView ? lcjs.scaleTheme(t, 0.5) : t
